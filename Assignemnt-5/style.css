@@ -1,0 +1,123 @@
+a{
+    text-decoration: none;
+    text-align: end;
+    color: rgb(8, 8, 8);
+}
+.foot{
+    background-color: black;
+    
+}
+footer nav ul li a{
+    color: white;
+}
+li{
+    color: aliceblue;
+}
+form{
+    display: block;
+    margin: 20px auto;
+    border: 5px solid black;
+    width: max-content;
+    padding: 30px;
+}
+form p{
+    color:black;
+}
+input{
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+label{
+    font-size: 25px;
+}
+input[type="submit"] {
+    display: block;
+    margin: 20px auto 20px auto;
+    font-size: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(24, 5, 92);
+    color: white;
+
+}
+body{
+    margin: 0px;
+}
+header{
+    padding: 20px;
+}
+.ad{
+    padding: 30px;
+}
+.r{
+    text-align: center;
+}
+.sect{
+    justify-content: flex-end;
+}
+.slider{
+    overflow: hidden;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.slider figure img{
+    width: 1200px;
+    float: left;
+    height:  400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25% {
+        left:-100%;
+    }
+    45% {
+        left:-100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+h1{
+    text-align: center;
+}
+.row .col img{
+    display: block;
+    margin: auto;
+}
+p{
+    text-align: center;
+}
+.cart{
+    border: 2px solid black;
+    width: max-content;
+    height: 1000px;
+}
